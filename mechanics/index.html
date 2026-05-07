@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mechanics | Crossover Battlegrounds Wiki</title>
+  <meta name="description" content="Crossover Battlegrounds mechanics covering placement limits, combat stats, infinite mode, rewards, co-op scaling, and progression.">
+  <script>
+    try {
+      const theme = localStorage.getItem("cb-theme");
+      if (theme === "dark" || theme === "light") document.documentElement.dataset.theme = theme;
+    } catch {}
+  </script>
+  <link rel="stylesheet" href="../assets/styles.css">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  
+    <header class="site-header">
+      <a class="brand" href="../index.html" aria-label="Crossover Battlegrounds Wiki home">
+        <span class="brand-mark">CB</span>
+        <span>Crossover Battlegrounds</span>
+      </a>
+      <div class="header-actions">
+        <nav class="site-nav" aria-label="Primary">
+          <a class="" href="../index.html">Home</a><a class="" href="../getting-started/index.html">Start Here</a><a class="" href="../characters/index.html">Characters</a><a class="" href="../story/index.html">Story</a><a class="active" href="../mechanics/index.html">Mechanics</a><a class="" href="../mutations/index.html">Mutations</a>
+        </nav>
+        <label class="theme-switch" title="Toggle dark mode">
+          <input type="checkbox" data-theme-toggle aria-label="Toggle dark mode">
+          <span aria-hidden="true"><span>L</span><span>D</span></span>
+        </label>
+      </div>
+    </header>
+  <main id="main">
+    
+      <section class="subhero">
+        <p class="eyebrow">Game Systems</p>
+        <h1>Mechanics</h1>
+        <p>Placement, roles, mana abilities, story unlocks, infinite phases, and reward scaling.</p>
+      </section>
+
+      <section class="page-section mechanics-grid">
+        <article class="info-panel">
+          <p class="eyebrow">Placement</p>
+          <h2>Unit Limits</h2>
+          <dl class="detail-list">
+            <div><dt>Max units per player</dt><dd>20</dd></div>
+            <div><dt>Max copies per unit</dt><dd>4</dd></div>
+            <div><dt>Battle tutorial place</dt><dd>101795303171103</dd></div>
+          </dl>
+        </article>
+        <article class="info-panel">
+          <p class="eyebrow">Rewards</p>
+          <h2>Payout Multipliers</h2>
+          <dl class="detail-list">
+            <div><dt>Coin / Exp payout</dt><dd>50%</dd></div>
+            <div><dt>Gem reward payout</dt><dd>50%</dd></div>
+            <div><dt>Legacy wave clear</dt><dd>200 + wave x 60 + sqrt(difficulty) x 30</dd></div>
+          </dl>
+        </article>
+        <article class="info-panel">
+          <p class="eyebrow">Infinite</p>
+          <h2>Run Flow</h2>
+          <ol class="clean-list">
+            <li>Pregame countdown gives players time to place units.</li>
+            <li>Combat starts the wave and resolves until one side is wiped.</li>
+            <li>Wave clear grants session money and opens intermission voting.</li>
+            <li>Defeat ends the run and grants profile money scaled by wave and difficulty.</li>
+          </ol>
+        </article>
+        <article class="info-panel">
+          <p class="eyebrow">Co-op</p>
+          <h2>Enemy Scaling</h2>
+          <p>Co-op increases spawn count with a sublinear multiplier: 1 + 0.5 x (players - 1). Enemy health, damage, and attack speed match solo at the same wave and difficulty.</p>
+        </article>
+      </section>
+
+      <section class="page-section alt-band">
+        <div class="section-heading">
+          <p class="eyebrow">Roles</p>
+          <h2>Archetypes And Mana Abilities</h2>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Role</th><th>Units</th><th>Ability</th><th>Effect</th></tr></thead>
+            <tbody>
+      <tr>
+        <th>Assassin</th>
+        <td>43</td>
+        <td>Assassinate</td>
+        <td>A massive burst that scales with attack damage.</td>
+      </tr>
+      <tr>
+        <th>Bruiser</th>
+        <td>52</td>
+        <td>Overwhelm</td>
+        <td>Hits hard and heals the caster.</td>
+      </tr>
+      <tr>
+        <th>Buff</th>
+        <td>11</td>
+        <td>Rally</td>
+        <td>Buffs the nearest allies&#39; damage for the round.</td>
+      </tr>
+      <tr>
+        <th>Healer</th>
+        <td>3</td>
+        <td>Mend</td>
+        <td>Heals you and the three nearest allies for 25% of each unit&#39;s max health.</td>
+      </tr>
+      <tr>
+        <th>Money Farm</th>
+        <td>5</td>
+        <td>Cashout</td>
+        <td>Generates extra in-run money when cast.</td>
+      </tr>
+      <tr>
+        <th>Tank</th>
+        <td>14</td>
+        <td>Fortify</td>
+        <td>Heals the caster for a large amount.</td>
+      </tr></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="page-section">
+        <div class="section-heading">
+          <p class="eyebrow">Stats</p>
+          <h2>Combat Stat Glossary</h2>
+        </div>
+        <div class="glossary-grid">
+          <article><h3>Health</h3><p>How much damage a unit can take before being defeated.</p></article><article><h3>Damage</h3><p>Base hit damage before ability bursts, buffs, and mutation multipliers.</p></article><article><h3>Attack Speed</h3><p>Attack interval value used by combat. Lower values attack more often.</p></article><article><h3>Range</h3><p>Attack reach. Melee units use 5 range in the module.</p></article><article><h3>Cost</h3><p>In-run placement cost after module cost tuning.</p></article><article><h3>Move Speed</h3><p>How quickly the unit moves through the battlefield.</p></article>
+        </div>
+      </section>
+    
+  </main>
+  
+    <footer class="site-footer">
+      <div>
+        <strong>Crossover Battlegrounds Wiki</strong>
+        <span>Static pages generated from GameModule.lua.</span>
+      </div>
+      <div class="footer-links">
+        <a href="../abilities/index.html">Abilities</a>
+        <a href="../maps/index.html">Maps</a>
+        <a href="../characters/index.html">Roster</a>
+      </div>
+    </footer>
+  <script src="../assets/site.js" defer></script>
+</body>
+</html>

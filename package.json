@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "build": "node tools/build-site.mjs",
+    "validate": "node tools/validate-site.mjs"
+  }
+}

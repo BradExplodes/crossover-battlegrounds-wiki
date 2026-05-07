@@ -1,0 +1,3217 @@
+{
+  "generatedFrom": "GameModule.lua",
+  "counts": {
+    "total": 128,
+    "stars": {
+      "1": 34,
+      "2": 37,
+      "3": 37,
+      "4": 20
+    },
+    "archetypes": {
+      "assassin": 43,
+      "bruiser": 52,
+      "buff": 11,
+      "healer": 3,
+      "money_farm": 5,
+      "tank": 14
+    }
+  },
+  "characters": [
+    {
+      "name": "Cyd",
+      "stars": 4,
+      "category": "four_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 970,
+        "dmg": 176,
+        "attackSpeed": 2.1,
+        "range": 5,
+        "cost": 758,
+        "moveSpeed": 12.1,
+        "dps": 83.80952380952381
+      }
+    },
+    {
+      "name": "Uchira Warlord",
+      "stars": 4,
+      "category": "four_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 844,
+        "dmg": 155,
+        "attackSpeed": 2,
+        "range": 5,
+        "cost": 722,
+        "moveSpeed": 11.7,
+        "dps": 77.5
+      }
+    },
+    {
+      "name": "Freyren",
+      "stars": 4,
+      "category": "four_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 663,
+        "dmg": 151,
+        "attackSpeed": 2.1,
+        "range": 20,
+        "cost": 747,
+        "moveSpeed": 12,
+        "dps": 71.9047619047619
+      }
+    },
+    {
+      "name": "Gojin (Form 2)",
+      "stars": 4,
+      "category": "four_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 707,
+        "dmg": 160,
+        "attackSpeed": 2.1,
+        "range": 20,
+        "cost": 765,
+        "moveSpeed": 12.2,
+        "dps": 76.19047619047619
+      }
+    },
+    {
+      "name": "Recall",
+      "stars": 4,
+      "category": "four_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 624,
+        "dmg": 143,
+        "attackSpeed": 2,
+        "range": 19,
+        "cost": 732,
+        "moveSpeed": 11.8,
+        "dps": 71.5
+      }
+    },
+    {
+      "name": "Doku",
+      "stars": 4,
+      "category": "four_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 1486,
+        "dmg": 139,
+        "attackSpeed": 1.9,
+        "range": 5,
+        "cost": 740,
+        "moveSpeed": 11.2,
+        "dps": 73.15789473684211
+      }
+    },
+    {
+      "name": "Ichiro (Form 4)",
+      "stars": 4,
+      "category": "four_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 1405,
+        "dmg": 132,
+        "attackSpeed": 1.9,
+        "range": 5,
+        "cost": 725,
+        "moveSpeed": 11.1,
+        "dps": 69.47368421052632
+      }
+    },
+    {
+      "name": "Luffi (Form 4)",
+      "stars": 4,
+      "category": "four_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 1336,
+        "dmg": 126,
+        "attackSpeed": 1.8,
+        "range": 5,
+        "cost": 712,
+        "moveSpeed": 10.9,
+        "dps": 70
+      }
+    },
+    {
+      "name": "Natsu Draygneel",
+      "stars": 4,
+      "category": "four_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 1366,
+        "dmg": 129,
+        "attackSpeed": 1.8,
+        "range": 5,
+        "cost": 718,
+        "moveSpeed": 11,
+        "dps": 71.66666666666667
+      }
+    },
+    {
+      "name": "Miku (Mesmerizer)",
+      "stars": 4,
+      "category": "four_star",
+      "archetype": "buff",
+      "archetypeLabel": "Buff",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_buff_round",
+      "stats": {
+        "health": 858,
+        "dmg": 80,
+        "attackSpeed": 1.8,
+        "range": 19,
+        "cost": 665,
+        "moveSpeed": 10.2,
+        "dps": 44.44444444444444
+      }
+    },
+    {
+      "name": "Furyna",
+      "stars": 4,
+      "category": "four_star",
+      "archetype": "healer",
+      "archetypeLabel": "Healer",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_healer_aoe",
+      "stats": {
+        "health": 1032,
+        "dmg": 79,
+        "attackSpeed": 1.8,
+        "range": 26,
+        "cost": 734,
+        "moveSpeed": 10.6,
+        "dps": 43.888888888888886
+      }
+    },
+    {
+      "name": "Omni-Father",
+      "stars": 4,
+      "category": "four_star",
+      "archetype": "tank",
+      "archetypeLabel": "Tank",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_tank_heal",
+      "stats": {
+        "health": 2644,
+        "dmg": 106,
+        "attackSpeed": 1.6,
+        "range": 5,
+        "cost": 782,
+        "moveSpeed": 10.1,
+        "dps": 66.25
+      }
+    },
+    {
+      "name": "Jotaru",
+      "stars": 4,
+      "category": "four_star",
+      "archetype": "tank",
+      "archetypeLabel": "Tank",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_tank_heal",
+      "stats": {
+        "health": 2205,
+        "dmg": 90,
+        "attackSpeed": 1.5,
+        "range": 5,
+        "cost": 733,
+        "moveSpeed": 9.7,
+        "dps": 60
+      }
+    },
+    {
+      "name": "One-Palm",
+      "stars": 4,
+      "category": "four_star",
+      "archetype": "tank",
+      "archetypeLabel": "Tank",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_tank_heal",
+      "stats": {
+        "health": 2085,
+        "dmg": 85,
+        "attackSpeed": 1.5,
+        "range": 5,
+        "cost": 720,
+        "moveSpeed": 9.6,
+        "dps": 56.666666666666664
+      }
+    },
+    {
+      "name": "Struggler (Armored)",
+      "stars": 4,
+      "category": "four_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 1120,
+        "dmg": 134,
+        "attackSpeed": 1.85,
+        "range": 5,
+        "cost": 724,
+        "moveSpeed": 11,
+        "dps": 72.43243243243244
+      }
+    },
+    {
+      "name": "Koku (Super Blue)",
+      "stars": 4,
+      "category": "four_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 648,
+        "dmg": 142,
+        "attackSpeed": 1.85,
+        "range": 19,
+        "cost": 738,
+        "moveSpeed": 11.3,
+        "dps": 76.75675675675676
+      }
+    },
+    {
+      "name": "Nightwaltz",
+      "stars": 4,
+      "category": "four_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 638,
+        "dmg": 150,
+        "attackSpeed": 1.95,
+        "range": 20,
+        "cost": 742,
+        "moveSpeed": 11.4,
+        "dps": 76.92307692307692
+      }
+    },
+    {
+      "name": "Red Knight",
+      "stars": 4,
+      "category": "four_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 1125,
+        "dmg": 131,
+        "attackSpeed": 1.88,
+        "range": 5,
+        "cost": 718,
+        "moveSpeed": 11,
+        "dps": 69.68085106382979
+      }
+    },
+    {
+      "name": "2A",
+      "stars": 4,
+      "category": "four_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 1105,
+        "dmg": 128,
+        "attackSpeed": 1.9,
+        "range": 5,
+        "cost": 714,
+        "moveSpeed": 11.2,
+        "dps": 67.36842105263158
+      }
+    },
+    {
+      "name": "Stellaron Hunter",
+      "stars": 4,
+      "category": "four_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 890,
+        "dmg": 170,
+        "attackSpeed": 2.05,
+        "range": 5,
+        "cost": 752,
+        "moveSpeed": 12.1,
+        "dps": 82.92682926829269
+      }
+    },
+    {
+      "name": "Void Knight",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 629,
+        "dmg": 113,
+        "attackSpeed": 2.1,
+        "range": 5,
+        "cost": 450,
+        "moveSpeed": 12.4,
+        "dps": 53.80952380952381
+      }
+    },
+    {
+      "name": "Wild Card",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 529,
+        "dmg": 97,
+        "attackSpeed": 2,
+        "range": 5,
+        "cost": 411,
+        "moveSpeed": 11.8,
+        "dps": 48.5
+      }
+    },
+    {
+      "name": "Kiri-To",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 531,
+        "dmg": 97,
+        "attackSpeed": 2,
+        "range": 5,
+        "cost": 413,
+        "moveSpeed": 11.9,
+        "dps": 48.5
+      }
+    },
+    {
+      "name": "Levi Ackren",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 596,
+        "dmg": 108,
+        "attackSpeed": 2,
+        "range": 5,
+        "cost": 438,
+        "moveSpeed": 12.2,
+        "dps": 54
+      }
+    },
+    {
+      "name": "Reza",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 611,
+        "dmg": 110,
+        "attackSpeed": 2.1,
+        "range": 5,
+        "cost": 443,
+        "moveSpeed": 12.3,
+        "dps": 52.38095238095238
+      }
+    },
+    {
+      "name": "Jin-Woo Sung",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 546,
+        "dmg": 100,
+        "attackSpeed": 2,
+        "range": 5,
+        "cost": 418,
+        "moveSpeed": 11.9,
+        "dps": 50
+      }
+    },
+    {
+      "name": "Tojin",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 528,
+        "dmg": 97,
+        "attackSpeed": 2,
+        "range": 5,
+        "cost": 411,
+        "moveSpeed": 11.8,
+        "dps": 48.5
+      }
+    },
+    {
+      "name": "Zolo (Form 2)",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 546,
+        "dmg": 100,
+        "attackSpeed": 2,
+        "range": 5,
+        "cost": 418,
+        "moveSpeed": 11.9,
+        "dps": 50
+      }
+    },
+    {
+      "name": "Gojin",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 446,
+        "dmg": 100,
+        "attackSpeed": 2.1,
+        "range": 22,
+        "cost": 449,
+        "moveSpeed": 12.4,
+        "dps": 47.61904761904762
+      }
+    },
+    {
+      "name": "Yujiro",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 775,
+        "dmg": 73,
+        "attackSpeed": 1.7,
+        "range": 5,
+        "cost": 396,
+        "moveSpeed": 10.8,
+        "dps": 42.94117647058824
+      }
+    },
+    {
+      "name": "Hellcleaver",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 776,
+        "dmg": 74,
+        "attackSpeed": 1.7,
+        "range": 5,
+        "cost": 397,
+        "moveSpeed": 10.8,
+        "dps": 43.529411764705884
+      }
+    },
+    {
+      "name": "Edric Elrik",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 896,
+        "dmg": 84,
+        "attackSpeed": 1.8,
+        "range": 5,
+        "cost": 427,
+        "moveSpeed": 11.2,
+        "dps": 46.666666666666664
+      }
+    },
+    {
+      "name": "Luffi (Form 3)",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 863,
+        "dmg": 81,
+        "attackSpeed": 1.8,
+        "range": 5,
+        "cost": 419,
+        "moveSpeed": 11.1,
+        "dps": 45
+      }
+    },
+    {
+      "name": "Peaches",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 550,
+        "dmg": 65,
+        "attackSpeed": 1.7,
+        "range": 14,
+        "cost": 396,
+        "moveSpeed": 10.8,
+        "dps": 38.23529411764706
+      }
+    },
+    {
+      "name": "Dyo",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 604,
+        "dmg": 71,
+        "attackSpeed": 1.8,
+        "range": 16,
+        "cost": 416,
+        "moveSpeed": 11.1,
+        "dps": 39.44444444444444
+      }
+    },
+    {
+      "name": "Doctor Zombie",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 605,
+        "dmg": 71,
+        "attackSpeed": 1.8,
+        "range": 16,
+        "cost": 416,
+        "moveSpeed": 11.1,
+        "dps": 39.44444444444444
+      }
+    },
+    {
+      "name": "Ichiro (Form 3)",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 582,
+        "dmg": 69,
+        "attackSpeed": 1.8,
+        "range": 15,
+        "cost": 408,
+        "moveSpeed": 11,
+        "dps": 38.333333333333336
+      }
+    },
+    {
+      "name": "Hextech",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 630,
+        "dmg": 74,
+        "attackSpeed": 1.8,
+        "range": 16,
+        "cost": 425,
+        "moveSpeed": 11.2,
+        "dps": 41.11111111111111
+      }
+    },
+    {
+      "name": "Leonis",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 576,
+        "dmg": 68,
+        "attackSpeed": 1.7,
+        "range": 15,
+        "cost": 405,
+        "moveSpeed": 10.9,
+        "dps": 40
+      }
+    },
+    {
+      "name": "Sprinter",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 562,
+        "dmg": 66,
+        "attackSpeed": 1.7,
+        "range": 14,
+        "cost": 401,
+        "moveSpeed": 10.9,
+        "dps": 38.82352941176471
+      }
+    },
+    {
+      "name": "Pidgeon",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 538,
+        "dmg": 64,
+        "attackSpeed": 1.7,
+        "range": 13,
+        "cost": 392,
+        "moveSpeed": 10.8,
+        "dps": 37.64705882352941
+      }
+    },
+    {
+      "name": "Goalnaldo",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 620,
+        "dmg": 73,
+        "attackSpeed": 1.8,
+        "range": 16,
+        "cost": 421,
+        "moveSpeed": 11.2,
+        "dps": 40.55555555555556
+      }
+    },
+    {
+      "name": "Miku (Monitoring)",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "buff",
+      "archetypeLabel": "Buff",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_buff_round",
+      "stats": {
+        "health": 552,
+        "dmg": 51,
+        "attackSpeed": 1.8,
+        "range": 20,
+        "cost": 387,
+        "moveSpeed": 10.4,
+        "dps": 28.333333333333332
+      }
+    },
+    {
+      "name": "Philza",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "buff",
+      "archetypeLabel": "Buff",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_buff_round",
+      "stats": {
+        "health": 608,
+        "dmg": 56,
+        "attackSpeed": 1.8,
+        "range": 22,
+        "cost": 406,
+        "moveSpeed": 10.7,
+        "dps": 31.11111111111111
+      }
+    },
+    {
+      "name": "Tsunami",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "money_farm",
+      "archetypeLabel": "Money Farm",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_money_farm",
+      "stats": {
+        "health": 479,
+        "dmg": 38,
+        "attackSpeed": 1.5,
+        "range": 18,
+        "cost": 350,
+        "moveSpeed": 10.2,
+        "dps": 25.333333333333332
+      }
+    },
+    {
+      "name": "Slime Farmer",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "tank",
+      "archetypeLabel": "Tank",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_tank_heal",
+      "stats": {
+        "health": 1048,
+        "dmg": 53,
+        "attackSpeed": 1.5,
+        "range": 15,
+        "cost": 435,
+        "moveSpeed": 9.9,
+        "dps": 35.333333333333336
+      }
+    },
+    {
+      "name": "Meta",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "tank",
+      "archetypeLabel": "Tank",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_tank_heal",
+      "stats": {
+        "health": 920,
+        "dmg": 44,
+        "attackSpeed": 1.35,
+        "range": 5,
+        "cost": 417,
+        "moveSpeed": 9.5,
+        "dps": 32.59259259259259
+      }
+    },
+    {
+      "name": "Viscount",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 438,
+        "dmg": 99,
+        "attackSpeed": 2.05,
+        "range": 21,
+        "cost": 434,
+        "moveSpeed": 12.2,
+        "dps": 48.29268292682927
+      }
+    },
+    {
+      "name": "Hollow Vessel",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 860,
+        "dmg": 80,
+        "attackSpeed": 1.68,
+        "range": 5,
+        "cost": 417,
+        "moveSpeed": 10.8,
+        "dps": 47.61904761904762
+      }
+    },
+    {
+      "name": "Grav Girl",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 452,
+        "dmg": 101,
+        "attackSpeed": 2,
+        "range": 20,
+        "cost": 439,
+        "moveSpeed": 12.3,
+        "dps": 50.5
+      }
+    },
+    {
+      "name": "John Sparta",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 588,
+        "dmg": 71,
+        "attackSpeed": 1.72,
+        "range": 16,
+        "cost": 420,
+        "moveSpeed": 11,
+        "dps": 41.27906976744186
+      }
+    },
+    {
+      "name": "Struggler",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 830,
+        "dmg": 83,
+        "attackSpeed": 1.72,
+        "range": 5,
+        "cost": 429,
+        "moveSpeed": 11,
+        "dps": 48.25581395348837
+      }
+    },
+    {
+      "name": "Koku (God)",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 592,
+        "dmg": 70,
+        "attackSpeed": 1.76,
+        "range": 17,
+        "cost": 411,
+        "moveSpeed": 11,
+        "dps": 39.77272727272727
+      }
+    },
+    {
+      "name": "Half Ghoul",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 598,
+        "dmg": 109,
+        "attackSpeed": 2.02,
+        "range": 5,
+        "cost": 441,
+        "moveSpeed": 12.2,
+        "dps": 53.96039603960396
+      }
+    },
+    {
+      "name": "Hollow",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 585,
+        "dmg": 106,
+        "attackSpeed": 2,
+        "range": 5,
+        "cost": 432,
+        "moveSpeed": 12.1,
+        "dps": 53
+      }
+    },
+    {
+      "name": "Chess King",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "buff",
+      "archetypeLabel": "Buff",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_buff_round",
+      "stats": {
+        "health": 600,
+        "dmg": 53,
+        "attackSpeed": 1.82,
+        "range": 22,
+        "cost": 399,
+        "moveSpeed": 10.6,
+        "dps": 29.12087912087912
+      }
+    },
+    {
+      "name": "Named King",
+      "stars": 3,
+      "category": "three_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 584,
+        "dmg": 69,
+        "attackSpeed": 1.77,
+        "range": 17,
+        "cost": 408,
+        "moveSpeed": 11,
+        "dps": 38.983050847457626
+      }
+    },
+    {
+      "name": "Akiyo",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 298,
+        "dmg": 54,
+        "attackSpeed": 1.9,
+        "range": 5,
+        "cost": 231,
+        "moveSpeed": 12,
+        "dps": 28.42105263157895
+      }
+    },
+    {
+      "name": "Baruto",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 301,
+        "dmg": 55,
+        "attackSpeed": 1.9,
+        "range": 5,
+        "cost": 233,
+        "moveSpeed": 12.1,
+        "dps": 28.947368421052634
+      }
+    },
+    {
+      "name": "Webslinger",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 319,
+        "dmg": 58,
+        "attackSpeed": 2,
+        "range": 5,
+        "cost": 245,
+        "moveSpeed": 12.2,
+        "dps": 29
+      }
+    },
+    {
+      "name": "Tanjiru",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 315,
+        "dmg": 57,
+        "attackSpeed": 2,
+        "range": 5,
+        "cost": 243,
+        "moveSpeed": 12.2,
+        "dps": 28.5
+      }
+    },
+    {
+      "name": "Thorfyn",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 323,
+        "dmg": 58,
+        "attackSpeed": 2,
+        "range": 5,
+        "cost": 248,
+        "moveSpeed": 12.3,
+        "dps": 29
+      }
+    },
+    {
+      "name": "Greyfang",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 309,
+        "dmg": 56,
+        "attackSpeed": 1.9,
+        "range": 5,
+        "cost": 238,
+        "moveSpeed": 12.1,
+        "dps": 29.47368421052632
+      }
+    },
+    {
+      "name": "Zolo",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 325,
+        "dmg": 59,
+        "attackSpeed": 2,
+        "range": 5,
+        "cost": 249,
+        "moveSpeed": 12.3,
+        "dps": 29.5
+      }
+    },
+    {
+      "name": "Bridgit",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 231,
+        "dmg": 52,
+        "attackSpeed": 2,
+        "range": 22,
+        "cost": 250,
+        "moveSpeed": 12.3,
+        "dps": 26
+      }
+    },
+    {
+      "name": "Getoux",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 207,
+        "dmg": 47,
+        "attackSpeed": 1.9,
+        "range": 19,
+        "cost": 227,
+        "moveSpeed": 12,
+        "dps": 24.736842105263158
+      }
+    },
+    {
+      "name": "Lamplight",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 216,
+        "dmg": 49,
+        "attackSpeed": 1.9,
+        "range": 20,
+        "cost": 235,
+        "moveSpeed": 12.1,
+        "dps": 25.789473684210527
+      }
+    },
+    {
+      "name": "Skeleton",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 220,
+        "dmg": 50,
+        "attackSpeed": 1.9,
+        "range": 20,
+        "cost": 239,
+        "moveSpeed": 12.1,
+        "dps": 26.315789473684212
+      }
+    },
+    {
+      "name": "Trooper",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 229,
+        "dmg": 52,
+        "attackSpeed": 2,
+        "range": 22,
+        "cost": 248,
+        "moveSpeed": 12.3,
+        "dps": 26
+      }
+    },
+    {
+      "name": "Supersonic",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 220,
+        "dmg": 50,
+        "attackSpeed": 1.9,
+        "range": 20,
+        "cost": 239,
+        "moveSpeed": 12.1,
+        "dps": 26.315789473684212
+      }
+    },
+    {
+      "name": "Denjiro",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 428,
+        "dmg": 40,
+        "attackSpeed": 1.7,
+        "range": 5,
+        "cost": 218,
+        "moveSpeed": 10.9,
+        "dps": 23.529411764705884
+      }
+    },
+    {
+      "name": "Fin",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 455,
+        "dmg": 43,
+        "attackSpeed": 1.7,
+        "range": 5,
+        "cost": 231,
+        "moveSpeed": 11.1,
+        "dps": 25.294117647058822
+      }
+    },
+    {
+      "name": "Gone",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 463,
+        "dmg": 43,
+        "attackSpeed": 1.7,
+        "range": 5,
+        "cost": 234,
+        "moveSpeed": 11.2,
+        "dps": 25.294117647058822
+      }
+    },
+    {
+      "name": "Ichiro (Form 2)",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 420,
+        "dmg": 40,
+        "attackSpeed": 1.7,
+        "range": 5,
+        "cost": 215,
+        "moveSpeed": 10.9,
+        "dps": 23.529411764705884
+      }
+    },
+    {
+      "name": "Boxer",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 444,
+        "dmg": 42,
+        "attackSpeed": 1.7,
+        "range": 5,
+        "cost": 227,
+        "moveSpeed": 11.1,
+        "dps": 24.705882352941178
+      }
+    },
+    {
+      "name": "Luffi (Form 2)",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 464,
+        "dmg": 43,
+        "attackSpeed": 1.7,
+        "range": 5,
+        "cost": 235,
+        "moveSpeed": 11.2,
+        "dps": 25.294117647058822
+      }
+    },
+    {
+      "name": "Power",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 409,
+        "dmg": 39,
+        "attackSpeed": 1.6,
+        "range": 5,
+        "cost": 210,
+        "moveSpeed": 10.8,
+        "dps": 24.375
+      }
+    },
+    {
+      "name": "Purple Guy",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 413,
+        "dmg": 39,
+        "attackSpeed": 1.6,
+        "range": 5,
+        "cost": 212,
+        "moveSpeed": 10.9,
+        "dps": 24.375
+      }
+    },
+    {
+      "name": "Miku (Rotten)",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "buff",
+      "archetypeLabel": "Buff",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_buff_round",
+      "stats": {
+        "health": 302,
+        "dmg": 28,
+        "attackSpeed": 1.7,
+        "range": 21,
+        "cost": 213,
+        "moveSpeed": 10.5,
+        "dps": 16.47058823529412
+      }
+    },
+    {
+      "name": "Nico Robyn",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "buff",
+      "archetypeLabel": "Buff",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_buff_round",
+      "stats": {
+        "health": 281,
+        "dmg": 26,
+        "attackSpeed": 1.7,
+        "range": 19,
+        "cost": 200,
+        "moveSpeed": 10.3,
+        "dps": 15.294117647058824
+      }
+    },
+    {
+      "name": "Teto",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "buff",
+      "archetypeLabel": "Buff",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_buff_round",
+      "stats": {
+        "health": 291,
+        "dmg": 27,
+        "attackSpeed": 1.7,
+        "range": 20,
+        "cost": 206,
+        "moveSpeed": 10.4,
+        "dps": 15.882352941176471
+      }
+    },
+    {
+      "name": "MrBeast",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "money_farm",
+      "archetypeLabel": "Money Farm",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_money_farm",
+      "stats": {
+        "health": 294,
+        "dmg": 23,
+        "attackSpeed": 1.5,
+        "range": 21,
+        "cost": 204,
+        "moveSpeed": 10.6,
+        "dps": 15.333333333333334
+      }
+    },
+    {
+      "name": "Gigachad",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "tank",
+      "archetypeLabel": "Tank",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_tank_heal",
+      "stats": {
+        "health": 726,
+        "dmg": 29,
+        "attackSpeed": 1.4,
+        "range": 5,
+        "cost": 227,
+        "moveSpeed": 9.8,
+        "dps": 20.714285714285715
+      }
+    },
+    {
+      "name": "Blockman",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "tank",
+      "archetypeLabel": "Tank",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_tank_heal",
+      "stats": {
+        "health": 721,
+        "dmg": 29,
+        "attackSpeed": 1.4,
+        "range": 5,
+        "cost": 224,
+        "moveSpeed": 9.8,
+        "dps": 20.714285714285715
+      }
+    },
+    {
+      "name": "Umbra Plate",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 435,
+        "dmg": 41,
+        "attackSpeed": 1.68,
+        "range": 5,
+        "cost": 222,
+        "moveSpeed": 10.9,
+        "dps": 24.404761904761905
+      }
+    },
+    {
+      "name": "Blackmore",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 303,
+        "dmg": 55,
+        "attackSpeed": 1.92,
+        "range": 5,
+        "cost": 234,
+        "moveSpeed": 12.1,
+        "dps": 28.645833333333336
+      }
+    },
+    {
+      "name": "Rabble",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "tank",
+      "archetypeLabel": "Tank",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_tank_heal",
+      "stats": {
+        "health": 738,
+        "dmg": 30,
+        "attackSpeed": 1.38,
+        "range": 5,
+        "cost": 229,
+        "moveSpeed": 9.7,
+        "dps": 21.73913043478261
+      }
+    },
+    {
+      "name": "Bloodlace",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 313,
+        "dmg": 57,
+        "attackSpeed": 1.95,
+        "range": 5,
+        "cost": 241,
+        "moveSpeed": 12.2,
+        "dps": 29.23076923076923
+      }
+    },
+    {
+      "name": "Digital Girl",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "buff",
+      "archetypeLabel": "Buff",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_buff_round",
+      "stats": {
+        "health": 298,
+        "dmg": 28,
+        "attackSpeed": 1.68,
+        "range": 21,
+        "cost": 210,
+        "moveSpeed": 10.5,
+        "dps": 16.666666666666668
+      }
+    },
+    {
+      "name": "Managed Democracy",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 352,
+        "dmg": 40,
+        "attackSpeed": 1.65,
+        "range": 15,
+        "cost": 218,
+        "moveSpeed": 10.9,
+        "dps": 24.242424242424242
+      }
+    },
+    {
+      "name": "Koku (Super)",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 348,
+        "dmg": 40,
+        "attackSpeed": 1.64,
+        "range": 16,
+        "cost": 220,
+        "moveSpeed": 10.9,
+        "dps": 24.390243902439025
+      }
+    },
+    {
+      "name": "Lionknight",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "tank",
+      "archetypeLabel": "Tank",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_tank_heal",
+      "stats": {
+        "health": 743,
+        "dmg": 30,
+        "attackSpeed": 1.39,
+        "range": 5,
+        "cost": 230,
+        "moveSpeed": 9.7,
+        "dps": 21.58273381294964
+      }
+    },
+    {
+      "name": "Scythemeister",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 308,
+        "dmg": 56,
+        "attackSpeed": 1.93,
+        "range": 5,
+        "cost": 237,
+        "moveSpeed": 12.1,
+        "dps": 29.015544041450777
+      }
+    },
+    {
+      "name": "Scanner Unit",
+      "stars": 2,
+      "category": "two_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 338,
+        "dmg": 39,
+        "attackSpeed": 1.63,
+        "range": 16,
+        "cost": 214,
+        "moveSpeed": 10.8,
+        "dps": 23.92638036809816
+      }
+    },
+    {
+      "name": "Infiltrator",
+      "stars": 1,
+      "category": "one_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 159,
+        "dmg": 29,
+        "attackSpeed": 1.8,
+        "range": 5,
+        "cost": 124,
+        "moveSpeed": 12.1,
+        "dps": 16.11111111111111
+      }
+    },
+    {
+      "name": "Foxgirl",
+      "stars": 1,
+      "category": "one_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 111,
+        "dmg": 25,
+        "attackSpeed": 1.8,
+        "range": 19,
+        "cost": 122,
+        "moveSpeed": 12,
+        "dps": 13.88888888888889
+      }
+    },
+    {
+      "name": "Asagi",
+      "stars": 1,
+      "category": "one_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 116,
+        "dmg": 26,
+        "attackSpeed": 1.9,
+        "range": 21,
+        "cost": 129,
+        "moveSpeed": 12.2,
+        "dps": 13.68421052631579
+      }
+    },
+    {
+      "name": "Killer Star",
+      "stars": 1,
+      "category": "one_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 111,
+        "dmg": 25,
+        "attackSpeed": 1.8,
+        "range": 19,
+        "cost": 121,
+        "moveSpeed": 12,
+        "dps": 13.88888888888889
+      }
+    },
+    {
+      "name": "Hagi",
+      "stars": 1,
+      "category": "one_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 118,
+        "dmg": 27,
+        "attackSpeed": 1.9,
+        "range": 22,
+        "cost": 131,
+        "moveSpeed": 12.2,
+        "dps": 14.210526315789474
+      }
+    },
+    {
+      "name": "Raze",
+      "stars": 1,
+      "category": "one_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 113,
+        "dmg": 26,
+        "attackSpeed": 1.8,
+        "range": 19,
+        "cost": 124,
+        "moveSpeed": 12.1,
+        "dps": 14.444444444444445
+      }
+    },
+    {
+      "name": "Slime Boy",
+      "stars": 1,
+      "category": "one_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 113,
+        "dmg": 26,
+        "attackSpeed": 1.8,
+        "range": 19,
+        "cost": 124,
+        "moveSpeed": 12.1,
+        "dps": 14.444444444444445
+      }
+    },
+    {
+      "name": "Courier Six",
+      "stars": 1,
+      "category": "one_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 162,
+        "dmg": 19,
+        "attackSpeed": 1.6,
+        "range": 15,
+        "cost": 119,
+        "moveSpeed": 11,
+        "dps": 11.875
+      }
+    },
+    {
+      "name": "Hazmat",
+      "stars": 1,
+      "category": "one_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 238,
+        "dmg": 22,
+        "attackSpeed": 1.6,
+        "range": 5,
+        "cost": 125,
+        "moveSpeed": 11.1,
+        "dps": 13.75
+      }
+    },
+    {
+      "name": "Letterman",
+      "stars": 1,
+      "category": "one_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 231,
+        "dmg": 22,
+        "attackSpeed": 1.6,
+        "range": 5,
+        "cost": 121,
+        "moveSpeed": 11,
+        "dps": 13.75
+      }
+    },
+    {
+      "name": "Elevens",
+      "stars": 1,
+      "category": "one_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 228,
+        "dmg": 21,
+        "attackSpeed": 1.6,
+        "range": 5,
+        "cost": 118,
+        "moveSpeed": 11,
+        "dps": 13.125
+      }
+    },
+    {
+      "name": "Ichiro Kurasaki",
+      "stars": 1,
+      "category": "one_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 235,
+        "dmg": 22,
+        "attackSpeed": 1.6,
+        "range": 5,
+        "cost": 124,
+        "moveSpeed": 11.1,
+        "dps": 13.75
+      }
+    },
+    {
+      "name": "Sideburns",
+      "stars": 1,
+      "category": "one_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 235,
+        "dmg": 22,
+        "attackSpeed": 1.6,
+        "range": 5,
+        "cost": 124,
+        "moveSpeed": 11.1,
+        "dps": 13.75
+      }
+    },
+    {
+      "name": "Luffi",
+      "stars": 1,
+      "category": "one_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 229,
+        "dmg": 22,
+        "attackSpeed": 1.6,
+        "range": 5,
+        "cost": 120,
+        "moveSpeed": 11,
+        "dps": 13.75
+      }
+    },
+    {
+      "name": "Manji Sano",
+      "stars": 1,
+      "category": "one_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 224,
+        "dmg": 21,
+        "attackSpeed": 1.6,
+        "range": 5,
+        "cost": 116,
+        "moveSpeed": 10.9,
+        "dps": 13.125
+      }
+    },
+    {
+      "name": "Sandwich",
+      "stars": 1,
+      "category": "one_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 230,
+        "dmg": 22,
+        "attackSpeed": 1.6,
+        "range": 5,
+        "cost": 120,
+        "moveSpeed": 11,
+        "dps": 13.75
+      }
+    },
+    {
+      "name": "Cook",
+      "stars": 1,
+      "category": "one_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 230,
+        "dmg": 22,
+        "attackSpeed": 1.6,
+        "range": 5,
+        "cost": 120,
+        "moveSpeed": 11,
+        "dps": 13.75
+      }
+    },
+    {
+      "name": "Koku",
+      "stars": 1,
+      "category": "one_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 169,
+        "dmg": 20,
+        "attackSpeed": 1.6,
+        "range": 17,
+        "cost": 125,
+        "moveSpeed": 11.1,
+        "dps": 12.5
+      }
+    },
+    {
+      "name": "Miku",
+      "stars": 1,
+      "category": "one_star",
+      "archetype": "buff",
+      "archetypeLabel": "Buff",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_buff_round",
+      "stats": {
+        "health": 149,
+        "dmg": 14,
+        "attackSpeed": 1.6,
+        "range": 18,
+        "cost": 109,
+        "moveSpeed": 10.4,
+        "dps": 8.75
+      }
+    },
+    {
+      "name": "Dime",
+      "stars": 1,
+      "category": "one_star",
+      "archetype": "buff",
+      "archetypeLabel": "Buff",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_buff_round",
+      "stats": {
+        "health": 159,
+        "dmg": 15,
+        "attackSpeed": 1.6,
+        "range": 21,
+        "cost": 118,
+        "moveSpeed": 10.5,
+        "dps": 9.375
+      }
+    },
+    {
+      "name": "Remedy",
+      "stars": 1,
+      "category": "one_star",
+      "archetype": "healer",
+      "archetypeLabel": "Healer",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_healer_aoe",
+      "stats": {
+        "health": 160,
+        "dmg": 12,
+        "attackSpeed": 1.5,
+        "range": 24,
+        "cost": 117,
+        "moveSpeed": 10.4,
+        "dps": 8
+      }
+    },
+    {
+      "name": "Flamingo",
+      "stars": 1,
+      "category": "one_star",
+      "archetype": "money_farm",
+      "archetypeLabel": "Money Farm",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_money_farm",
+      "stats": {
+        "health": 150,
+        "dmg": 12,
+        "attackSpeed": 1.4,
+        "range": 21,
+        "cost": 110,
+        "moveSpeed": 10.5,
+        "dps": 8.571428571428571
+      }
+    },
+    {
+      "name": "Hazard Crew",
+      "stars": 1,
+      "category": "one_star",
+      "archetype": "money_farm",
+      "archetypeLabel": "Money Farm",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_money_farm",
+      "stats": {
+        "health": 148,
+        "dmg": 12,
+        "attackSpeed": 1.4,
+        "range": 21,
+        "cost": 109,
+        "moveSpeed": 10.5,
+        "dps": 8.571428571428571
+      }
+    },
+    {
+      "name": "Minimum Wage Worker",
+      "stars": 1,
+      "category": "one_star",
+      "archetype": "money_farm",
+      "archetypeLabel": "Money Farm",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_money_farm",
+      "stats": {
+        "health": 142,
+        "dmg": 11,
+        "attackSpeed": 1.4,
+        "range": 18,
+        "cost": 103,
+        "moveSpeed": 10.4,
+        "dps": 7.857142857142858
+      }
+    },
+    {
+      "name": "Kiyo Ayan",
+      "stars": 1,
+      "category": "one_star",
+      "archetype": "tank",
+      "archetypeLabel": "Tank",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_tank_heal",
+      "stats": {
+        "health": 393,
+        "dmg": 16,
+        "attackSpeed": 1.3,
+        "range": 5,
+        "cost": 123,
+        "moveSpeed": 9.8,
+        "dps": 12.307692307692307
+      }
+    },
+    {
+      "name": "Boris Johnson",
+      "stars": 1,
+      "category": "one_star",
+      "archetype": "tank",
+      "archetypeLabel": "Tank",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_tank_heal",
+      "stats": {
+        "health": 390,
+        "dmg": 16,
+        "attackSpeed": 1.3,
+        "range": 5,
+        "cost": 122,
+        "moveSpeed": 9.8,
+        "dps": 12.307692307692307
+      }
+    },
+    {
+      "name": "Sprint",
+      "stars": 1,
+      "category": "one_star",
+      "archetype": "tank",
+      "archetypeLabel": "Tank",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_tank_heal",
+      "stats": {
+        "health": 398,
+        "dmg": 16,
+        "attackSpeed": 1.4,
+        "range": 5,
+        "cost": 124,
+        "moveSpeed": 9.9,
+        "dps": 11.428571428571429
+      }
+    },
+    {
+      "name": "Heavyman",
+      "stars": 1,
+      "category": "one_star",
+      "archetype": "tank",
+      "archetypeLabel": "Tank",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_tank_heal",
+      "stats": {
+        "health": 291,
+        "dmg": 15,
+        "attackSpeed": 1.4,
+        "range": 16,
+        "cost": 129,
+        "moveSpeed": 9.9,
+        "dps": 10.714285714285715
+      }
+    },
+    {
+      "name": "Jogou",
+      "stars": 1,
+      "category": "one_star",
+      "archetype": "tank",
+      "archetypeLabel": "Tank",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_tank_heal",
+      "stats": {
+        "health": 286,
+        "dmg": 14,
+        "attackSpeed": 1.4,
+        "range": 15,
+        "cost": 126,
+        "moveSpeed": 9.9,
+        "dps": 10
+      }
+    },
+    {
+      "name": "Pillager",
+      "stars": 1,
+      "category": "one_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "melee",
+      "rangeModeLabel": "Melee",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 235,
+        "dmg": 22,
+        "attackSpeed": 1.6,
+        "range": 5,
+        "cost": 124,
+        "moveSpeed": 11.1,
+        "dps": 13.75
+      }
+    },
+    {
+      "name": "Reaper's Handmaiden",
+      "stars": 1,
+      "category": "one_star",
+      "archetype": "bruiser",
+      "archetypeLabel": "Bruiser",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_bruiser_sustain",
+      "stats": {
+        "health": 168,
+        "dmg": 21,
+        "attackSpeed": 1.55,
+        "range": 14,
+        "cost": 118,
+        "moveSpeed": 11,
+        "dps": 13.548387096774194
+      }
+    },
+    {
+      "name": "Fluff Healer",
+      "stars": 1,
+      "category": "one_star",
+      "archetype": "healer",
+      "archetypeLabel": "Healer",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_healer_aoe",
+      "stats": {
+        "health": 162,
+        "dmg": 12,
+        "attackSpeed": 1.5,
+        "range": 24,
+        "cost": 118,
+        "moveSpeed": 10.4,
+        "dps": 8
+      }
+    },
+    {
+      "name": "Droptrooper",
+      "stars": 1,
+      "category": "one_star",
+      "archetype": "assassin",
+      "archetypeLabel": "Assassin",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_assassin_burst",
+      "stats": {
+        "health": 114,
+        "dmg": 27,
+        "attackSpeed": 1.85,
+        "range": 20,
+        "cost": 126,
+        "moveSpeed": 12.1,
+        "dps": 14.594594594594595
+      }
+    },
+    {
+      "name": "Faceless Singer",
+      "stars": 1,
+      "category": "one_star",
+      "archetype": "buff",
+      "archetypeLabel": "Buff",
+      "rangeMode": "ranged",
+      "rangeModeLabel": "Ranged",
+      "abilityId": "base_buff_round",
+      "stats": {
+        "health": 150,
+        "dmg": 14,
+        "attackSpeed": 1.6,
+        "range": 19,
+        "cost": 111,
+        "moveSpeed": 10.4,
+        "dps": 8.75
+      }
+    }
+  ],
+  "story": {
+    "storyPlaceId": 89708614669753,
+    "actsPerWorld": 5,
+    "firstClearExpMultiplier": 10,
+    "hardcore": {
+      "difficultyMultiplier": 2,
+      "rewardMultiplier": 2
+    },
+    "worlds": [
+      {
+        "id": "grasslands",
+        "order": 1,
+        "name": "Grasslands",
+        "subtitle": "Verdant frontier",
+        "color": "rgb(90, 220, 110)",
+        "imageAssetId": "118961618593530",
+        "imageUrl": "https://www.roblox.com/asset-thumbnail/image?assetId=118961618593530&width=768&height=432&format=png",
+        "mapKey": "forestmap",
+        "acts": [
+          {
+            "act": 1,
+            "waves": 6,
+            "baseDifficulty": 1,
+            "rewardsSummary": "Coins, Exp",
+            "boss": {
+              "style": "stat_buff",
+              "statMultiplier": 1.25
+            },
+            "firstClearBonus": {
+              "money": 450,
+              "gems": 5,
+              "exp": 300
+            },
+            "firstClearBonusHardcore": {
+              "money": 900,
+              "gems": 10,
+              "exp": 600
+            }
+          },
+          {
+            "act": 2,
+            "waves": 8,
+            "baseDifficulty": 1,
+            "rewardsSummary": "Coins, Exp",
+            "boss": {
+              "style": "stat_buff",
+              "statMultiplier": 1.3
+            },
+            "firstClearBonus": {
+              "money": 600,
+              "gems": 10,
+              "exp": 413
+            },
+            "firstClearBonusHardcore": {
+              "money": 1200,
+              "gems": 20,
+              "exp": 825
+            }
+          },
+          {
+            "act": 3,
+            "waves": 10,
+            "baseDifficulty": 2,
+            "rewardsSummary": "Coins, Exp",
+            "boss": {
+              "style": "stat_buff",
+              "statMultiplier": 1.35
+            },
+            "firstClearBonus": {
+              "money": 780,
+              "gems": 10,
+              "exp": 525
+            },
+            "firstClearBonusHardcore": {
+              "money": 1560,
+              "gems": 20,
+              "exp": 1050
+            }
+          },
+          {
+            "act": 4,
+            "waves": 12,
+            "baseDifficulty": 3,
+            "rewardsSummary": "Coins, Exp",
+            "boss": {
+              "style": "stat_buff",
+              "statMultiplier": 1.4
+            },
+            "firstClearBonus": {
+              "money": 1020,
+              "gems": 15,
+              "exp": 675
+            },
+            "firstClearBonusHardcore": {
+              "money": 2040,
+              "gems": 30,
+              "exp": 1350
+            }
+          },
+          {
+            "act": 5,
+            "waves": 14,
+            "baseDifficulty": 3,
+            "rewardsSummary": "Coins, Exp",
+            "boss": {
+              "style": "boss_unit",
+              "statMultiplier": 1.45
+            },
+            "firstClearBonus": {
+              "money": 1500,
+              "gems": 25,
+              "exp": 975
+            },
+            "firstClearBonusHardcore": {
+              "money": 3000,
+              "gems": 50,
+              "exp": 1950
+            }
+          }
+        ]
+      },
+      {
+        "id": "setting_sail",
+        "order": 2,
+        "name": "Setting Sail",
+        "subtitle": "Coastal currents",
+        "color": "rgb(80, 160, 255)",
+        "imageAssetId": "124723922725774",
+        "imageUrl": "https://www.roblox.com/asset-thumbnail/image?assetId=124723922725774&width=768&height=432&format=png",
+        "mapKey": "beachmap",
+        "acts": [
+          {
+            "act": 1,
+            "waves": 8,
+            "baseDifficulty": 2,
+            "rewardsSummary": "Coins, Exp",
+            "boss": {
+              "style": "stat_buff",
+              "statMultiplier": 1.28
+            },
+            "firstClearBonus": {
+              "money": 660,
+              "gems": 10,
+              "exp": 450
+            },
+            "firstClearBonusHardcore": {
+              "money": 1320,
+              "gems": 20,
+              "exp": 900
+            }
+          },
+          {
+            "act": 2,
+            "waves": 10,
+            "baseDifficulty": 2,
+            "rewardsSummary": "Coins, Exp",
+            "boss": {
+              "style": "stat_buff",
+              "statMultiplier": 1.33
+            },
+            "firstClearBonus": {
+              "money": 900,
+              "gems": 15,
+              "exp": 600
+            },
+            "firstClearBonusHardcore": {
+              "money": 1800,
+              "gems": 30,
+              "exp": 1200
+            }
+          },
+          {
+            "act": 3,
+            "waves": 12,
+            "baseDifficulty": 3,
+            "rewardsSummary": "Coins, Exp",
+            "boss": {
+              "style": "stat_buff",
+              "statMultiplier": 1.38
+            },
+            "firstClearBonus": {
+              "money": 1140,
+              "gems": 15,
+              "exp": 750
+            },
+            "firstClearBonusHardcore": {
+              "money": 2280,
+              "gems": 30,
+              "exp": 1500
+            }
+          },
+          {
+            "act": 4,
+            "waves": 16,
+            "baseDifficulty": 4,
+            "rewardsSummary": "Coins, Exp",
+            "boss": {
+              "style": "stat_buff",
+              "statMultiplier": 1.42
+            },
+            "firstClearBonus": {
+              "money": 1440,
+              "gems": 20,
+              "exp": 938
+            },
+            "firstClearBonusHardcore": {
+              "money": 2880,
+              "gems": 40,
+              "exp": 1875
+            }
+          },
+          {
+            "act": 5,
+            "waves": 20,
+            "baseDifficulty": 5,
+            "rewardsSummary": "Coins, Exp",
+            "boss": {
+              "style": "boss_unit",
+              "statMultiplier": 1.48
+            },
+            "firstClearBonus": {
+              "money": 1860,
+              "gems": 30,
+              "exp": 1200
+            },
+            "firstClearBonusHardcore": {
+              "money": 3720,
+              "gems": 60,
+              "exp": 2400
+            }
+          }
+        ]
+      },
+      {
+        "id": "pirate_invasion",
+        "order": 3,
+        "name": "Pirate Invasion!",
+        "subtitle": "Defend the ship",
+        "color": "rgb(114, 213, 255)",
+        "imageAssetId": "112792531040468",
+        "imageUrl": "https://www.roblox.com/asset-thumbnail/image?assetId=112792531040468&width=768&height=432&format=png",
+        "mapKey": "oceanmap",
+        "acts": [
+          {
+            "act": 1,
+            "waves": 8,
+            "baseDifficulty": 3,
+            "rewardsSummary": "Coins, Gems, Exp",
+            "boss": {
+              "style": "stat_buff",
+              "statMultiplier": 1.34
+            },
+            "firstClearBonus": {
+              "money": 960,
+              "gems": 15,
+              "exp": 638
+            },
+            "firstClearBonusHardcore": {
+              "money": 1920,
+              "gems": 30,
+              "exp": 1275
+            }
+          },
+          {
+            "act": 2,
+            "waves": 10,
+            "baseDifficulty": 3,
+            "rewardsSummary": "Coins, Gems, Exp",
+            "boss": {
+              "style": "stat_buff",
+              "statMultiplier": 1.38
+            },
+            "firstClearBonus": {
+              "money": 1260,
+              "gems": 20,
+              "exp": 825
+            },
+            "firstClearBonusHardcore": {
+              "money": 2520,
+              "gems": 40,
+              "exp": 1650
+            }
+          },
+          {
+            "act": 3,
+            "waves": 12,
+            "baseDifficulty": 4,
+            "rewardsSummary": "Coins, Gems, Exp",
+            "boss": {
+              "style": "stat_buff",
+              "statMultiplier": 1.42
+            },
+            "firstClearBonus": {
+              "money": 1560,
+              "gems": 25,
+              "exp": 1013
+            },
+            "firstClearBonusHardcore": {
+              "money": 3120,
+              "gems": 50,
+              "exp": 2025
+            }
+          },
+          {
+            "act": 4,
+            "waves": 16,
+            "baseDifficulty": 5,
+            "rewardsSummary": "Coins, Gems, Exp",
+            "boss": {
+              "style": "stat_buff",
+              "statMultiplier": 1.46
+            },
+            "firstClearBonus": {
+              "money": 1980,
+              "gems": 30,
+              "exp": 1275
+            },
+            "firstClearBonusHardcore": {
+              "money": 3960,
+              "gems": 60,
+              "exp": 2550
+            }
+          },
+          {
+            "act": 5,
+            "waves": 20,
+            "baseDifficulty": 6,
+            "rewardsSummary": "Coins, Gems, Exp",
+            "boss": {
+              "style": "boss_unit",
+              "statMultiplier": 1.52
+            },
+            "firstClearBonus": {
+              "money": 2460,
+              "gems": 40,
+              "exp": 1575
+            },
+            "firstClearBonusHardcore": {
+              "money": 4920,
+              "gems": 80,
+              "exp": 3150
+            }
+          }
+        ]
+      },
+      {
+        "id": "ocean_walkway",
+        "order": 4,
+        "name": "Ocean Walkway",
+        "subtitle": "Prove you're worthy",
+        "color": "rgb(210, 210, 126)",
+        "imageAssetId": "122578934855402",
+        "imageUrl": "https://www.roblox.com/asset-thumbnail/image?assetId=122578934855402&width=768&height=432&format=png",
+        "mapKey": "bridgemap",
+        "acts": [
+          {
+            "act": 1,
+            "waves": 10,
+            "baseDifficulty": 4,
+            "rewardsSummary": "Coins, Gems, Exp",
+            "boss": {
+              "style": "stat_buff",
+              "statMultiplier": 1.4
+            },
+            "firstClearBonus": {
+              "money": 1260,
+              "gems": 20,
+              "exp": 825
+            },
+            "firstClearBonusHardcore": {
+              "money": 2520,
+              "gems": 40,
+              "exp": 1650
+            }
+          },
+          {
+            "act": 2,
+            "waves": 12,
+            "baseDifficulty": 4,
+            "rewardsSummary": "Coins, Gems, Exp",
+            "boss": {
+              "style": "stat_buff",
+              "statMultiplier": 1.44
+            },
+            "firstClearBonus": {
+              "money": 1560,
+              "gems": 25,
+              "exp": 1050
+            },
+            "firstClearBonusHardcore": {
+              "money": 3120,
+              "gems": 50,
+              "exp": 2100
+            }
+          },
+          {
+            "act": 3,
+            "waves": 14,
+            "baseDifficulty": 5,
+            "rewardsSummary": "Coins, Gems, Exp",
+            "boss": {
+              "style": "stat_buff",
+              "statMultiplier": 1.48
+            },
+            "firstClearBonus": {
+              "money": 1920,
+              "gems": 30,
+              "exp": 1275
+            },
+            "firstClearBonusHardcore": {
+              "money": 3840,
+              "gems": 60,
+              "exp": 2550
+            }
+          },
+          {
+            "act": 4,
+            "waves": 18,
+            "baseDifficulty": 6,
+            "rewardsSummary": "Coins, Gems, Exp",
+            "boss": {
+              "style": "stat_buff",
+              "statMultiplier": 1.52
+            },
+            "firstClearBonus": {
+              "money": 2340,
+              "gems": 35,
+              "exp": 1538
+            },
+            "firstClearBonusHardcore": {
+              "money": 4680,
+              "gems": 70,
+              "exp": 3075
+            }
+          },
+          {
+            "act": 5,
+            "waves": 22,
+            "baseDifficulty": 7,
+            "rewardsSummary": "Coins, Gems, Exp",
+            "boss": {
+              "style": "boss_unit",
+              "statMultiplier": 1.55
+            },
+            "firstClearBonus": {
+              "money": 2880,
+              "gems": 45,
+              "exp": 1875
+            },
+            "firstClearBonusHardcore": {
+              "money": 5760,
+              "gems": 90,
+              "exp": 3750
+            }
+          }
+        ]
+      },
+      {
+        "id": "colosseum",
+        "order": 5,
+        "name": "Colosseum",
+        "subtitle": "Prove your strength.",
+        "color": "rgb(255, 150, 70)",
+        "imageAssetId": "72009997051659",
+        "imageUrl": "https://www.roblox.com/asset-thumbnail/image?assetId=72009997051659&width=768&height=432&format=png",
+        "mapKey": "colosseummap",
+        "acts": [
+          {
+            "act": 1,
+            "waves": 12,
+            "baseDifficulty": 9,
+            "rewardsSummary": "Coins, Gems, Exp",
+            "boss": {
+              "style": "stat_buff",
+              "statMultiplier": 1.52
+            },
+            "firstClearBonus": {
+              "money": 1560,
+              "gems": 25,
+              "exp": 1050
+            },
+            "firstClearBonusHardcore": {
+              "money": 3120,
+              "gems": 50,
+              "exp": 2100
+            }
+          },
+          {
+            "act": 2,
+            "waves": 14,
+            "baseDifficulty": 11,
+            "rewardsSummary": "Coins, Gems, Exp",
+            "boss": {
+              "style": "stat_buff",
+              "statMultiplier": 1.56
+            },
+            "firstClearBonus": {
+              "money": 1920,
+              "gems": 30,
+              "exp": 1275
+            },
+            "firstClearBonusHardcore": {
+              "money": 3840,
+              "gems": 60,
+              "exp": 2550
+            }
+          },
+          {
+            "act": 3,
+            "waves": 16,
+            "baseDifficulty": 13,
+            "rewardsSummary": "Coins, Gems, Exp",
+            "boss": {
+              "style": "stat_buff",
+              "statMultiplier": 1.6
+            },
+            "firstClearBonus": {
+              "money": 2340,
+              "gems": 35,
+              "exp": 1538
+            },
+            "firstClearBonusHardcore": {
+              "money": 4680,
+              "gems": 70,
+              "exp": 3075
+            }
+          },
+          {
+            "act": 4,
+            "waves": 20,
+            "baseDifficulty": 16,
+            "rewardsSummary": "Coins, Gems, Exp",
+            "boss": {
+              "style": "stat_buff",
+              "statMultiplier": 1.64
+            },
+            "firstClearBonus": {
+              "money": 2760,
+              "gems": 40,
+              "exp": 1800
+            },
+            "firstClearBonusHardcore": {
+              "money": 5520,
+              "gems": 80,
+              "exp": 3600
+            }
+          },
+          {
+            "act": 5,
+            "waves": 24,
+            "baseDifficulty": 20,
+            "rewardsSummary": "Coins, Gems, Exp",
+            "boss": {
+              "style": "boss_unit",
+              "statMultiplier": 1.68
+            },
+            "firstClearBonus": {
+              "money": 3300,
+              "gems": 50,
+              "exp": 2175
+            },
+            "firstClearBonusHardcore": {
+              "money": 6600,
+              "gems": 100,
+              "exp": 4350
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "maps": [
+    {
+      "id": "colosseummap",
+      "name": "Colosseum Map"
+    },
+    {
+      "id": "castlemap",
+      "name": "Castle Map"
+    },
+    {
+      "id": "forestmap",
+      "name": "Grasslands"
+    },
+    {
+      "id": "beachmap",
+      "name": "Setting Sail"
+    },
+    {
+      "id": "bridgemap",
+      "name": "Bridge Crossing"
+    },
+    {
+      "id": "oceanmap",
+      "name": "Pirate Invasion!"
+    }
+  ],
+  "mutations": [
+    {
+      "id": "holographic",
+      "name": "Holographic",
+      "chanceDenominator": 100,
+      "statMultipliers": {
+        "health": 1.25,
+        "dmg": 1.25,
+        "as": 1.06,
+        "range": 1.03,
+        "move_speed": 1.25
+      },
+      "gradient": [
+        "#F8FAFC",
+        "#DDEBFF",
+        "#E9D5FF",
+        "#FFE4E6",
+        "#E0F2FE",
+        "#F8FAFC"
+      ]
+    },
+    {
+      "id": "ethereal",
+      "name": "Ethereal",
+      "chanceDenominator": 150,
+      "statMultipliers": {
+        "health": 1.5,
+        "dmg": 1.5,
+        "as": 1.08,
+        "range": 1.04,
+        "move_speed": 1.5
+      },
+      "gradient": [
+        "#EDE9FE",
+        "#C4B5FD",
+        "#A78BFA",
+        "#DDD6FE"
+      ]
+    },
+    {
+      "id": "radiant",
+      "name": "Radiant",
+      "chanceDenominator": 200,
+      "statMultipliers": {
+        "health": 1.75,
+        "dmg": 1.75,
+        "as": 1.1,
+        "range": 1.05,
+        "move_speed": 1.75
+      },
+      "gradient": [
+        "#FFFFFF",
+        "#FFF3A0",
+        "#FFD54F",
+        "#FFFFFF"
+      ]
+    },
+    {
+      "id": "void",
+      "name": "Void",
+      "chanceDenominator": 250,
+      "statMultipliers": {
+        "health": 2,
+        "dmg": 2,
+        "as": 1.12,
+        "range": 1.06,
+        "move_speed": 2
+      },
+      "gradient": [
+        "#0F0F1A",
+        "#3B0A45",
+        "#7B2CBF",
+        "#C77DFF"
+      ]
+    },
+    {
+      "id": "prismatic",
+      "name": "Prismatic",
+      "chanceDenominator": 500,
+      "statMultipliers": {
+        "health": 3,
+        "dmg": 3,
+        "as": 1.15,
+        "range": 1.08,
+        "move_speed": 3
+      },
+      "gradient": [
+        "#FF4D4D",
+        "#FF9F1C",
+        "#FFE66D",
+        "#2EC4B6",
+        "#3A86FF",
+        "#8338EC"
+      ]
+    }
+  ],
+  "abilities": {
+    "default_burst": {
+      "id": "default_burst",
+      "name": "Mana burst",
+      "description": "At 100 mana, unleashes a heavy hit that scales with attack damage.",
+      "behavior": "burst_scaled_damage",
+      "numbers": {
+        "multMin": 2,
+        "multMax": 3
+      }
+    },
+    "base_money_farm": {
+      "id": "base_money_farm",
+      "name": "Cashout",
+      "description": "Generates extra in-run money when cast.",
+      "behavior": "money_farm",
+      "numbers": {
+        "amount": 140
+      }
+    },
+    "base_assassin_burst": {
+      "id": "base_assassin_burst",
+      "name": "Assassinate",
+      "description": "A massive burst that scales with attack damage.",
+      "behavior": "burst_scaled_damage",
+      "numbers": {
+        "multMin": 3,
+        "multMax": 5
+      }
+    },
+    "base_bruiser_sustain": {
+      "id": "base_bruiser_sustain",
+      "name": "Overwhelm",
+      "description": "Hits hard and heals the caster.",
+      "behavior": "bruiser_sustain",
+      "numbers": {
+        "damageMult": 2.2,
+        "selfHealFrac": 0.18
+      }
+    },
+    "base_tank_heal": {
+      "id": "base_tank_heal",
+      "name": "Fortify",
+      "description": "Heals the caster for a large amount.",
+      "behavior": "tank_heal",
+      "numbers": {
+        "selfHealFrac": 0.45
+      }
+    },
+    "base_buff_round": {
+      "id": "base_buff_round",
+      "name": "Rally",
+      "description": "Buffs the nearest allies' damage for the round.",
+      "behavior": "buff_round",
+      "numbers": {
+        "buffFrac": 0.2,
+        "targetCount": 2
+      }
+    },
+    "base_healer_aoe": {
+      "id": "base_healer_aoe",
+      "name": "Mend",
+      "description": "Heals you and the three nearest allies for 25% of each unit's max health.",
+      "behavior": "healer_aoe",
+      "numbers": {
+        "healFrac": 0.25,
+        "targetCount": 3
+      }
+    }
+  }
+}
